@@ -216,17 +216,6 @@
   .slot .who { font-size: 13.5px; font-weight: 400; }
   .slot.break .what { font-weight: 400; }
 
-  /* dates / callout */
-  .dates { display: grid; gap: 14px; margin-top: 30px; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
-  .date-item { border-left: 3px solid var(--link); padding: 4px 0 4px 16px; }
-  .date-item .d { font-weight: 700; font-size: 15.5px; }
-  .date-item .l { font-size: 14px; }
-  .callout {
-    margin-top: 34px; background: var(--accent-wash);
-    border: 1px solid #c9d9f7; border-radius: var(--radius); padding: 24px 26px;
-  }
-  .callout p:last-of-type { margin-bottom: 18px; }
-
   /* footer */
   footer {
     padding: 44px 0 calc(44px + env(safe-area-inset-bottom, 0px));
@@ -247,7 +236,6 @@
       <a href="#about">About</a>
       <a href="#speakers">Speakers</a>
       <a href="#schedule">Schedule</a>
-      <a href="#register">Registration</a>
       <a href="#organizers">Organizing committee</a>
       <a href="#sponsors">Sponsors</a>
       <a href="#institutes">Participating institutes</a>
@@ -280,8 +268,8 @@
       </span>
     </div>
     <div class="cta">
-      <a class="btn btn-primary" href="#register">Register</a>
-      <a class="btn btn-ghost" href="#schedule">See the programme</a>
+      <a class="btn btn-primary" href="#schedule">See the programme</a>
+      <a class="btn btn-ghost" href="mailto:coralworkshop.official@gmail.com">Email the organizers</a>
     </div>
   </div>
 </header>
@@ -303,9 +291,9 @@
         </p>
         <p>
           The programme includes invited lectures by esteemed senior researchers with contributed
-          presentations by research students and early-career scholars. Participation is open to students, postdoctoral fellows, faculty members, and industry
-          professionals. Kindly note that while there is no registration fee for the workshop,
-          attendance is strictly limited by the seating capacity of the venue.
+          presentations by research students and early-career scholars. Attendance this year is by
+          invitation only, as seating at the venue is strictly limited; there is no fee for invited
+          participants.
         </p>
       </div>
       <div class="topics" aria-label="Topics of interest">
@@ -353,7 +341,7 @@
         <div>
           <p class="day-head">Day 1: Thursday, 3 December</p>
           <div class="sched">
-            <div class="slot break"><time>09:00</time><div><div class="what">Registration &amp; coffee</div></div></div>
+            <div class="slot break"><time>09:00</time><div><div class="what">Check-in &amp; coffee</div></div></div>
             <div class="slot"><time>09:30</time><div><div class="what">Welcome and opening remarks</div><div class="who">Organizing committee</div></div></div>
             <div class="slot"><time>09:45</time>
               <div class="tracks">
@@ -421,39 +409,7 @@
       <div class="extra-day">
         <p class="day-head">Day 3: Saturday, 5 December</p>
         <div class="sched">
-          <div class="slot"><time>09:00</time><div><div class="what">CPS lab visit</div><div class="who">Guided tour of the Department of Cyber-Physical Systems labs, 09:00 to 13:00. Open to all registered participants.</div></div></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="register">
-    <div class="wrap">
-      <h2>Registration</h2>
-      <div class="prose">
-        <p>
-          The workshop will be held on <strong>3&ndash;5 December 2026</strong>.
-          Registration is <strong>free</strong> and includes
-          lunch and refreshments on both days of talks, but places are limited by venue capacity,
-          so we ask everyone attending to register in advance.
-        </p>
-        <p>
-          The workshop is open to research students, postdocs, faculty and industry researchers. Participants
-          travelling from outside Bengaluru will be provided with accommodation; write to us if you
-          need a letter of invitation.
-        </p>
-      </div>
-      <div class="dates">
-        <div class="date-item"><div class="d">3&ndash;5 December 2026</div><div class="l">Workshop</div></div>
-        <div class="date-item"><div class="d">To be announced</div><div class="l">Registration opens</div></div>
-        <div class="date-item"><div class="d">To be announced</div><div class="l">Registration closes</div></div>
-      </div>
-      <div class="callout">
-        <h3>Register to attend</h3>
-        <p>Registration will open once the dates are fixed. The form will be linked here, and questions are welcome any time.</p>
-        <div class="cta">
-          <a class="btn btn-primary" href="#">Registration form</a>
-          <a class="btn btn-ghost" href="mailto:coralworkshop.official@gmail.com">Email the organizers</a>
+          <div class="slot"><time>09:00</time><div><div class="what">CPS lab visit</div><div class="who">Guided tour of the Department of Cyber-Physical Systems labs, 09:00 to 13:00. Open to all participants.</div></div></div>
         </div>
       </div>
     </div>

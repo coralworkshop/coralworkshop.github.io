@@ -84,8 +84,8 @@
     line-height: 0.95; letter-spacing: -0.045em; margin: 0 0 10px;
   }
   .expansion {
-    font-size: clamp(12px, 4vw, 30px); font-weight: 600; letter-spacing: -0.02em;
-    margin: 0 0 22px; line-height: 1.28; white-space: nowrap; max-width: 100%;
+    font-size: clamp(16px, 4vw, 30px); font-weight: 600; letter-spacing: -0.02em;
+    margin: 0 0 22px; line-height: 1.28; text-wrap: balance;
   }
   .lede { font-size: 17px; margin: 0 0 32px; }
   .facts { display: flex; flex-wrap: wrap; gap: 12px 28px; margin-bottom: 34px; }
@@ -179,6 +179,23 @@
   }
 
   /* sponsors */
+  .tier {
+    margin-top: 10px; display: grid; gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .sponsor {
+    display: flex; align-items: center; justify-content: center;
+    padding: 26px 24px; background: #fff;
+    border: 1px solid var(--line); border-radius: var(--radius);
+  }
+  .sponsor img { width: auto; height: auto; max-height: 58px; max-width: 100%; }
+  .tier.diamond { grid-template-columns: 1fr; }
+  .tier.diamond .sponsor { padding: 40px 32px; }
+  .tier.diamond .sponsor img { max-height: 86px; }
+  @media (max-width: 560px) {
+    .tier.diamond .sponsor { padding: 28px 20px; }
+    .tier.diamond .sponsor img { max-height: 58px; }
+  }
   .tbd {
     margin-top: 30px; border: 1px dashed var(--line); border-radius: var(--radius);
     padding: 34px 26px; text-align: center; font-size: 15px; font-weight: 600;
@@ -453,14 +470,16 @@
     <div class="wrap">
       <h2>Sponsors</h2>
       <p class="prose">
-        Sponsors for CoRAL 2026 are being confirmed and will be announced here. If your organization
-        would like to support the workshop, please
-        <a href="mailto:ravipr@iisc.ac.in">get in touch</a>, we are happy to share a
-        sponsorship prospectus.
+        CoRAL 2026 is made possible by the support of the organizations below. Further sponsors are
+        being confirmed and will be announced here. If your organization would like to support the
+        workshop, please <a href="mailto:ravipr@iisc.ac.in">get in touch</a>, we are happy to share
+        a sponsorship prospectus.
       </p>
-      <div class="tbd">
-        Sponsors to be announced
-        <span>Check back closer to the workshop.</span>
+      <p class="subhead first">Diamond sponsor</p>
+      <div class="tier diamond">
+        <div class="sponsor">
+          <img src="assets/logos/artpark.png" alt="ARTPARK, AI &amp; Robotics Technology Park, I-Hub at IISc" width="2500" height="551" loading="lazy">
+        </div>
       </div>
     </div>
   </section>

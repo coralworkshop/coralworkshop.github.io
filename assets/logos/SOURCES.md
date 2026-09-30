@@ -11,6 +11,7 @@
 | `iitkgp.webp` | IIT Kharagpur |
 | `artpark.png` | ARTPARK, AI &amp; Robotics Technology Park, I-Hub @ IISc — Diamond sponsor |
 | `abcmc.png` | Axis Bank Centre for Mathematics &amp; Computing, IISc — Platinum sponsor |
+| `tcsr.png` | TCS Research — Gold sponsor |
 
 All files supplied by the organisers. To add another participating institute, drop its logo
 here and copy one `.logo-card` block in the `#institutes` section of `index.html`.

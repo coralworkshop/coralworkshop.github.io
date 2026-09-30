@@ -182,20 +182,17 @@
   /* sponsors */
   .tier {
     margin-top: 10px; display: grid; gap: 16px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
   .sponsor {
     display: flex; align-items: center; justify-content: center;
-    padding: 26px 24px; background: #fff;
+    min-height: 168px; padding: 32px; background: #fff;
     border: 1px solid var(--line); border-radius: var(--radius);
   }
-  .sponsor img { width: auto; height: auto; max-height: 58px; max-width: 100%; }
-  .tier.diamond { grid-template-columns: 1fr; }
-  .tier.diamond .sponsor { padding: 40px 32px; }
-  .tier.diamond .sponsor img { max-height: 86px; }
+  .sponsor img { width: auto; height: auto; max-height: 86px; max-width: 100%; }
   @media (max-width: 560px) {
-    .tier.diamond .sponsor { padding: 28px 20px; }
-    .tier.diamond .sponsor img { max-height: 58px; }
+    .sponsor { min-height: 124px; padding: 22px 18px; }
+    .sponsor img { max-height: 58px; }
   }
   .tbd {
     margin-top: 30px; border: 1px dashed var(--line); border-radius: var(--radius);
@@ -480,6 +477,13 @@
       <div class="tier diamond">
         <div class="sponsor">
           <img src="assets/logos/artpark.png" alt="ARTPARK, AI &amp; Robotics Technology Park, I-Hub at IISc" width="2500" height="551" loading="lazy">
+        </div>
+      </div>
+
+      <p class="subhead">Platinum sponsor</p>
+      <div class="tier platinum">
+        <div class="sponsor">
+          <img src="assets/logos/abcmc.png" alt="Axis Bank Centre for Mathematics &amp; Computing, Indian Institute of Science" width="1138" height="196" loading="lazy">
         </div>
       </div>
     </div>

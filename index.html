@@ -215,18 +215,6 @@
     padding: 14px 2px; border-bottom: 1px solid var(--line); align-items: baseline;
   }
   .slot time { font-size: 13.5px; font-weight: 700; font-variant-numeric: tabular-nums; }
-  .tracks { display: grid; gap: 12px; }
-  .track { padding-left: 12px; border-left: 2px solid var(--line); }
-  .track.control { border-left-color: var(--link); }
-  .track.robotics { border-left-color: var(--ink); }
-  .tag {
-    display: block; font-size: 10px; font-weight: 700;
-    letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1px;
-  }
-  .legend { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 26px 0 0; font-size: 14px; }
-  .legend span { display: flex; align-items: center; gap: 9px; font-weight: 600; }
-  .legend i { flex: none; width: 3px; height: 15px; border-radius: 2px; background: var(--link); }
-  .legend i.robotics { background: var(--ink); }
   .slot .what { font-weight: 700; font-size: 15px; }
   .slot .who { font-size: 13.5px; font-weight: 400; }
   .slot.break .what { font-weight: 400; }
@@ -279,7 +267,7 @@
       </span>
       <span class="fact">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-        Three days, two parallel tracks
+        Three days, single track
       </span>
     </div>
     <div class="cta">
@@ -300,9 +288,8 @@
           distinct disciplines: <strong>control theory</strong>, which provides foundational
           guarantees on stability and safety, and <strong>robotics</strong>, which turns those
           guarantees into machines that perceive, plan and act in the real world. CoRAL is a
-          three-day, dual-track workshop: one track on control theory, and one on robotics,
-          across two days of talks and tutorials, followed by a visit to the CPS labs on the
-          third.
+          three-day, single-track workshop spanning control theory and robotics, with two days
+          of talks and tutorials followed by a visit to the CPS labs on the third.
         </p>
         <p>
           The programme includes invited lectures by esteemed senior researchers with contributed
@@ -331,7 +318,7 @@
   <section id="speakers">
     <div class="wrap">
       <h2>Speakers</h2>
-      <p class="prose">Six invited talks across the two days of talks, three in each track, each followed by open discussion.</p>
+      <p class="prose">Invited talks across the two days of talks, each followed by open discussion.</p>
       <div class="tbd">
         Speakers to be announced
         <span>The invited programme is being finalised; names will appear here.</span>
@@ -343,13 +330,10 @@
     <div class="wrap">
       <h2>Schedule</h2>
       <p class="prose">
-        The first two days run two parallel tracks; the third is a visit to the CPS labs.
-        Indicative timings, IST; the programme will be finalised nearer the workshop.
+        The first two days run as a single track of talks, tutorials and discussions; the third
+        is a visit to the CPS labs. Indicative timings, IST; the programme will be finalised
+        nearer the workshop.
       </p>
-      <div class="legend">
-        <span><i></i>Control theory track</span>
-        <span><i class="robotics"></i>Robotics track</span>
-      </div>
 
       <div class="days">
 
@@ -358,34 +342,14 @@
           <div class="sched">
             <div class="slot break"><time>09:00</time><div><div class="what">Check-in &amp; coffee</div></div></div>
             <div class="slot"><time>09:30</time><div><div class="what">Welcome and opening remarks</div><div class="who">Organizing committee</div></div></div>
-            <div class="slot"><time>09:45</time>
-              <div class="tracks">
-                <div class="track control"><span class="tag">Control</span><div class="what">Invited talk I</div><div class="who">Speaker to be announced</div></div>
-                <div class="track robotics"><span class="tag">Robotics</span><div class="what">Invited talk II</div><div class="who">Speaker to be announced</div></div>
-              </div>
-            </div>
+            <div class="slot"><time>09:45</time><div><div class="what">Invited talk I</div><div class="who">Speaker to be announced</div></div></div>
             <div class="slot break"><time>10:45</time><div><div class="what">Coffee break</div></div></div>
-            <div class="slot"><time>11:15</time>
-              <div class="tracks">
-                <div class="track control"><span class="tag">Control</span><div class="what">Contributed talks</div><div class="who">Three talks, 15 minutes each</div></div>
-                <div class="track robotics"><span class="tag">Robotics</span><div class="what">Contributed talks</div><div class="who">Three talks, 15 minutes each</div></div>
-              </div>
-            </div>
+            <div class="slot"><time>11:15</time><div><div class="what">Contributed talks</div><div class="who">Three talks, 15 minutes each</div></div></div>
             <div class="slot break"><time>12:30</time><div><div class="what">Lunch</div></div></div>
-            <div class="slot"><time>13:30</time>
-              <div class="tracks">
-                <div class="track control"><span class="tag">Control</span><div class="what">Invited talk III</div><div class="who">Speaker to be announced</div></div>
-                <div class="track robotics"><span class="tag">Robotics</span><div class="what">Invited talk IV</div><div class="who">Speaker to be announced</div></div>
-              </div>
-            </div>
-            <div class="slot"><time>14:30</time>
-              <div class="tracks">
-                <div class="track control"><span class="tag">Control</span><div class="what">Tutorial</div><div class="who">Hands-on, laptops welcome</div></div>
-                <div class="track robotics"><span class="tag">Robotics</span><div class="what">Tutorial</div><div class="who">World and World-Action Models</div></div>
-              </div>
-            </div>
+            <div class="slot"><time>13:30</time><div><div class="what">Invited talk II</div><div class="who">Speaker to be announced</div></div></div>
+            <div class="slot"><time>14:30</time><div><div class="what">Tutorial</div><div class="who">World and World-Action Models; hands-on, laptops welcome</div></div></div>
             <div class="slot break"><time>16:00</time><div><div class="what">Coffee break</div></div></div>
-            <div class="slot"><time>16:00</time><div><div class="what">Poster session</div><div class="who">Both tracks</div></div></div>
+            <div class="slot"><time>16:00</time><div><div class="what">Poster session</div></div></div>
           </div>
         </div>
 
@@ -393,28 +357,13 @@
           <p class="day-head">Day 2: Friday, 4 December</p>
           <div class="sched">
             <div class="slot break"><time>09:00</time><div><div class="what">Coffee</div></div></div>
-            <div class="slot"><time>09:30</time>
-              <div class="tracks">
-                <div class="track control"><span class="tag">Control</span><div class="what">Invited talk V</div><div class="who">Speaker to be announced</div></div>
-                <div class="track robotics"><span class="tag">Robotics</span><div class="what">Invited talk VI</div><div class="who">Speaker to be announced</div></div>
-              </div>
-            </div>
+            <div class="slot"><time>09:30</time><div><div class="what">Invited talk III</div><div class="who">Speaker to be announced</div></div></div>
             <div class="slot break"><time>10:30</time><div><div class="what">Coffee break</div></div></div>
-            <div class="slot"><time>11:00</time>
-              <div class="tracks">
-                <div class="track control"><span class="tag">Control</span><div class="what">Contributed talks</div><div class="who">Three talks, 15 minutes each</div></div>
-                <div class="track robotics"><span class="tag">Robotics</span><div class="what">Contributed talks</div><div class="who">Three talks, 15 minutes each</div></div>
-              </div>
-            </div>
+            <div class="slot"><time>11:00</time><div><div class="what">Contributed talks</div><div class="who">Three talks, 15 minutes each</div></div></div>
             <div class="slot break"><time>12:15</time><div><div class="what">Lunch</div></div></div>
-            <div class="slot"><time>13:15</time>
-              <div class="tracks">
-                <div class="track control"><span class="tag">Control</span><div class="what">Breakout discussions</div><div class="who">Themed groups</div></div>
-                <div class="track robotics"><span class="tag">Robotics</span><div class="what">Breakout discussions</div><div class="who">Themed groups</div></div>
-              </div>
-            </div>
+            <div class="slot"><time>13:15</time><div><div class="what">Breakout discussions</div><div class="who">Themed groups</div></div></div>
             <div class="slot break"><time>15:00</time><div><div class="what">Coffee break</div></div></div>
-            <div class="slot"><time>15:15</time><div><div class="what">Panel discussion</div><div class="who">What would it take to trust a learned controller? (both tracks)</div></div></div>
+            <div class="slot"><time>15:15</time><div><div class="what">Panel discussion</div><div class="who">What would it take to trust a learned controller?</div></div></div>
             <div class="slot"><time>16:30</time><div><div class="what">Closing remarks</div></div></div>
           </div>
         </div>
@@ -459,7 +408,10 @@
       <p class="prose" style="margin-top:16px">
       </p>
       <div class="vol-list">
-        <div class="vol"><div><div class="n">Sasidhar Reddy Alavala</div><div class="d">PhD student, CPS, IISc</div></div></div>
+        <div class="vol"><div><div class="n">Sasidhar Reddy Alavala</div><div class="d">PhD (CPS), IISc</div></div></div>
+        <div class="vol"><div><div class="n">Saharsh</div><div class="d">PhD (CPS), IISc</div></div></div>
+        <div class="vol"><div><div class="n">Sangeerth P</div><div class="d">PhD (CPS), IISc</div></div></div>
+        <div class="vol"><div><div class="n">Varuni Buereddy</div><div class="d">PhD (CPS), IISc</div></div></div>
       </div>
     </div>
   </section>

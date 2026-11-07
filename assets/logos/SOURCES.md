@@ -8,12 +8,16 @@
 | `iitd.webp` | IIT Delhi |
 | `iitm.svg` | IIT Madras |
 | `iitk.svg` | IIT Kanpur |
-| `iitkgp.webp` | IIT Kharagpur |
+| `iitkgp.webp` | IIT Kharagpur (not currently shown) |
+| `iitgn.svg` | IIT Gandhinagar: English Wikipedia file `Indian_Institute_of_Technology_Gandhinagar_Logo.svg` (iitgn.ac.in blocks automated access) |
+| `iitmandi.jpg` | IIT Mandi: https://iitmandi.ac.in/images/logo_hires.jpg, from https://iitmandi.ac.in/institute/iitmandilogo (resized) |
+| `iitjammu.png` | IIT Jammu: https://iitjammu.ac.in/images/iitjammulogo.png, from https://iitjammu.ac.in/institute-logo |
+| `iitrpr.png` | IIT Ropar: official logo file from the former https://www.iitrpr.ac.in/logo-iit-ropar page (archived May 2025; resized), matches the live site header |
 | `artpark.png` | ARTPARK, AI &amp; Robotics Technology Park, I-Hub @ IISc — Diamond sponsor |
 | `abcmc.png` | Axis Bank Centre for Mathematics &amp; Computing, IISc — Platinum sponsor |
 | `tcsr.png` | TCS Research — Gold sponsor |
 
-All files supplied by the organisers. To add another participating institute, drop its logo
+Files without a source above were supplied by the organisers. To add another participating institute, drop its logo
 here and copy one `.logo-card` block in the `#institutes` section of `index.html`.
 
 To add a sponsor, drop its logo here and copy one `.sponsor` block in the `#sponsors` section.

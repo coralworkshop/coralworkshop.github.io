@@ -11,7 +11,6 @@ against a second, independent photo of the same person. Verified November 2026.
 | `fares_abu_dakka.jpg` | Fares J. Abu-Dakka | https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/fares-abu-dakka.html | https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/engineering/faculty/fares-abu-dakka/_jcr_content/bio-info/image.img.jpg |
 | `debdipta_goswami.jpg` | Debdipta Goswami | https://goswami78.github.io/ (linked from https://mae.osu.edu/people/goswami.78; same photo as the OSU profile) | https://goswami78.github.io/photos/dgoswami.jpg |
 | `ravi_banavar.jpg` | Ravi N. Banavar | https://sites.google.com/view/ravibanavar/home (his homepage, linked from https://sc.iitb.ac.in/coreFaculty.html) | Google Sites image on that page |
-| `mousumi_mukherjee.jpg` | Mousumi Mukherjee | https://www.iiests.ac.in/en/faculty/mousumimukherjee-840 | https://data.iiests.ac.in/uploads/faculty/64f09d6480f67p1.jpg |
 | `shubhendu_bhasin.jpg` | Shubhendu Bhasin | https://ee.iitd.ac.in/faculty/shubhendu-bhasin | https://ee.iitd.ac.in/storage/faculty_images/faculty_qdWJkHaspl.jpg |
 | `arun_mahindrakar.jpg` | Arun D. Mahindrakar | https://www.ee.iitm.ac.in/dynamic-control/faculty.html | https://www.ee.iitm.ac.in/dynamic-control/uploads/2023/09/Arun.jpg |
 | `rachel_kalaimani.jpg` | Rachel Kalpana Kalaimani | https://www.ee.iitm.ac.in/rachel/ (her homepage; chosen by the organizers) | https://www.ee.iitm.ac.in/rachel/photo.jpg |

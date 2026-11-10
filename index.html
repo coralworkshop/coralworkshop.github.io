@@ -134,6 +134,11 @@
   .person h3 { font-size: 17.5px; margin-bottom: 2px; }
   .person .role { font-size: 13.5px; margin: 0 0 6px; }
   .person .links { font-size: 13.5px; font-weight: 600; }
+  .person .placeholder {
+    flex: none; width: 104px; height: 104px; border-radius: 50%;
+    display: grid; place-items: center; font-weight: 700; font-size: 20px; letter-spacing: 0.04em;
+    background: var(--accent-wash); color: var(--link); border: 1px solid var(--line);
+  }
   .person .talk { font-size: 13.5px; font-style: italic; margin: 0 0 6px; }
 
   /* volunteers */
@@ -335,10 +340,9 @@
           </div>
         </div>
         <div class="person">
-          <img src="assets/people/mousumi_mukherjee.jpg" alt="Prof. Mousumi Mukherjee" width="480" height="480" loading="lazy">
+          <div class="placeholder" aria-hidden="true">TBA</div>
           <div>
-            <h3><a href="https://oldwww1926.iiests.ac.in/IIEST/Faculty/ee-mousumi" target="_blank" rel="noopener">Prof. Mousumi Mukherjee</a></h3>
-            <p class="role">Dept. of Electrical Engineering<br>IIEST Shibpur</p>
+            <h3>Speaker to be announced</h3>
             <p class="links">Day 2, 14:00</p>
           </div>
         </div>
@@ -360,8 +364,8 @@
       <h2>Schedule</h2>
       <p class="prose">
         The first two days bring together invited talks and presentations by nominated
-        students, with a poster session on Day 1. The third day is a morning of talks followed by
-        a visit to the CPS labs. Invited talks are 45 minutes, including Q&amp;A. All times IST.
+        students, with a poster session on Day 1. The third day has industry talks by TCS Research
+        and ARTPARK, followed by a visit to the CPS labs. Invited talks are 45 minutes, including Q&amp;A. All times IST.
       </p>
       <p class="prose">
         <strong>Venue:</strong> G-22 Seminar Hall, TCS Smart X Hub, Indian Institute of Science.
@@ -392,7 +396,7 @@
             <div class="slot"><time>09:30</time><div><div class="what">Invited talk</div><div class="who"><a href="https://sites.google.com/view/ravibanavar/home" target="_blank" rel="noopener">Prof. Ravi N. Banavar</a>, IIT Bombay</div><div class="talk">&ldquo;Data-driven Control: Subspace Uncertainty and Optimization over a Grassmannian Manifold&rdquo;</div></div></div>
             <div class="slot"><time>10:15</time><div><div class="what">Student talks</div><div class="who">Six presentations by nominated students</div></div></div>
             <div class="slot break"><time>12:30</time><div><div class="what">Lunch</div></div></div>
-            <div class="slot"><time>14:00</time><div><div class="what">Invited talk</div><div class="who"><a href="https://oldwww1926.iiests.ac.in/IIEST/Faculty/ee-mousumi" target="_blank" rel="noopener">Prof. Mousumi Mukherjee</a>, IIEST Shibpur</div></div></div>
+            <div class="slot"><time>14:00</time><div><div class="what">Invited talk</div><div class="who">Speaker to be announced</div></div></div>
             <div class="slot"><time>14:45</time><div><div class="what">Student talks</div><div class="who">Five presentations by nominated students</div></div></div>
             <div class="slot break"><time>16:30</time><div><div class="what">Tea break</div></div></div>
             <div class="slot"><time>17:00</time><div><div class="what">Invited talk</div><div class="who"><a href="https://plaksha.edu.in/faculty/sandeep-manjanna" target="_blank" rel="noopener">Prof. Sandeep Manjanna</a>, Plaksha University</div><div class="talk">&ldquo;FLUID: Flow-aware Learning for Intelligent Navigation in Dynamic Fluids&rdquo;</div></div></div>
@@ -407,9 +411,8 @@
         <div class="sched">
           <div class="slot break"><time>09:00</time><div><div class="what">Breakfast</div></div></div>
           <div class="slot"><time>09:30</time><div><div class="what">Industry talk</div><div class="who">TCS Research</div></div></div>
-          <div class="slot"><time>10:15</time><div><div class="what">Talk</div><div class="who">Prof. Pushpak Jagtap, Indian Institute of Science</div></div></div>
-          <div class="slot"><time>10:45</time><div><div class="what">Talk</div><div class="who">Prof. Ravi Prakash, Indian Institute of Science</div></div></div>
-          <div class="slot"><time>11:15</time><div><div class="what">CPS lab visit</div><div class="who">Guided tour of the Department of Cyber-Physical Systems labs</div></div></div>
+          <div class="slot"><time>10:00</time><div><div class="what">Industry talk</div><div class="who">ARTPARK</div></div></div>
+          <div class="slot"><time>10:30</time><div><div class="what">CPS lab visit</div><div class="who">Guided tour of the Department of Cyber-Physical Systems labs</div></div></div>
           <div class="slot break"><time>12:00</time><div><div class="what">Close of workshop</div></div></div>
         </div>
       </div>

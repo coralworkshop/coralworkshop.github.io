@@ -15,6 +15,7 @@
 | `iitrpr.png` | IIT Ropar: official logo file from the former https://www.iitrpr.ac.in/logo-iit-ropar page (archived May 2025; resized), matches the live site header |
 | `artpark.png` | ARTPARK, AI &amp; Robotics Technology Park, I-Hub @ IISc — Diamond sponsor |
 | `abcmc.png` | Axis Bank Centre for Mathematics &amp; Computing, IISc — Platinum sponsor |
+| `control_society_logo.png` | The Control Society: Platinum sponsor. Identical to https://controlsociety.org/wp-content/uploads/2021/03/control-society-logo1.png (the only size the site publishes, 130 x 98) |
 | `tcsr.png` | TCS Research — Gold sponsor |
 
 Files without a source above were supplied by the organisers. To add another participating institute, drop its logo

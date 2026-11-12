@@ -22,8 +22,8 @@ Files without a source above were supplied by the organisers. To add another par
 here and copy one `.logo-card` block in the `#institutes` section of `index.html`.
 
 To add a sponsor, drop its logo here and copy one `.sponsor` block in the `#sponsors` section.
-Tiers run `.tier.diamond` (one full-width card, 86px logo), `.tier.platinum` (two columns,
-68px logo), then a plain `.tier` grid for lower tiers; add a `.subhead` above each tier.
+Tiers run `.tier.diamond` (one full-width card), then `.tier.platinum` and `.tier.gold` (two
+cards per row, one per row on phones); add a `.subhead` above each tier.
 
 Logos must be web formats: PNG, JPEG, WebP or SVG. A HEIC file from an iPhone or a Mac
 screenshot will not render in Chrome or Firefox even if renamed `.png`; convert it first with

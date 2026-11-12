@@ -191,6 +191,10 @@
     border: 1px solid var(--line); border-radius: var(--radius);
   }
   .sponsor img { width: auto; height: auto; max-height: 102px; max-width: min(100%, 420px); }
+  .tier.platinum, .tier.gold { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (max-width: 700px) {
+    .tier.platinum, .tier.gold { grid-template-columns: 1fr; }
+  }
   @media (max-width: 560px) {
     .sponsor { min-height: 124px; padding: 22px 18px; }
     .sponsor img { max-height: 70px; }

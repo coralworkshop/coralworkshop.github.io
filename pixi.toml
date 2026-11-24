@@ -1,0 +1,11 @@
+[workspace]
+name = "coralworkshop-website"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "linux-64"]
+
+[dependencies]
+python = "3.12.*"
+
+[tasks]
+# plain static HTML: preview at http://localhost:8000
+serve = "python -m http.server 8000"
